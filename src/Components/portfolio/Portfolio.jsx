@@ -56,7 +56,7 @@ const Portfolio = () => {
     }
   }, [selected]);
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="portfolio" id="portfolio" style={{ overflow: "hidden" }}>
       <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
